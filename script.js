@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
       const taskItem = document.createElement('li');
         taskItem.textContent = taskText;
-        taskItem.className = 'add';
+        taskItem.classList.add = 'add';
         
   
       const removeButton = document.createElement('button');
